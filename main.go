@@ -7,8 +7,9 @@ import (
 )
 
 type UserName struct {
-	Fname string `json:fname`
-	Lname string `json:lname`
+	Username string `json:username`
+	Password string `json:password`
+	Age int `json:age`
 }
 
 var user = UserName{}
